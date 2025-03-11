@@ -1,3 +1,4 @@
+
 import streamlit as st 
 import pickle
 import requests
@@ -68,4 +69,3 @@ if st.button("Show recommend"):
         st.image(recommended_posters[8]) 
     with   col10:
         st.text(recommended_movies[9])
-        st.image(recommended_posters[9]) 
